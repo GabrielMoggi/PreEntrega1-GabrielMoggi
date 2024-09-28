@@ -15,8 +15,14 @@ if(nombre !==""){
     console.log("Reingresa tu email")
 }
 
-let montoInicial=parseFloat(prompt("Ingresa el prestamo a sacar"))
-
+let montoInicial;
+while (true) {
+    montoInicial = parseFloat(prompt("Ingresa el préstamo a sacar"));
+    if (montoInicial > 0) {
+        break; 
+    }
+    alert("Por favor, ingresa un monto válido mayor que 0.");
+}
 function calcular(montoInicial) {
     const TASA_INTERES = 0.25; 
 
@@ -35,6 +41,7 @@ function calcular(montoInicial) {
     let porMes = monto / meses; 
 
     console.log("Pago por mes: " + porMes .toFixed(2));
+    
 }
 calcular(montoInicial); 
 
