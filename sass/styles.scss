@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif; }
+    }
 
 
     .nav{
@@ -178,20 +178,109 @@
 .calculadora div{
     margin-left: 500px;
 }
-.opiniones{
+.opiniones-grid{
    display: grid;
    grid-template-columns: repeat(4,1fr);
-   grid-template-rows: 350px;
-  
-  
-   
-    
-    margin-left: 15px;
-    margin-right: 15px;
+   grid-template-rows: 450px;
+  background-color: rgba(128, 128, 128, 0.692);
+
+    height: 37.5rem;
+    gap: 25px;
     
 }
-.fondoOpiniones{
-    height: 600px;
-    background-color: grey;
+.opinion{
+    background-color: white; 
+    padding: 15px;
+    border-radius: 15px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 6.25rem;
+    object-fit: contain;
+    
+}
+.us{
+    background-color:rgba(128, 128, 128, 0.692);
+    display: flex;
+    justify-content: center;
+}
+.opinion1{
+    width: 90px;
+    height: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    
+    
+}
+.opinion-footer{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 50px; 
 
+}
+.opinion-footer h4{
+    margin-left: 15px;
+}
+
+.opinion2{
+    width: 90px;
+    height: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.opinion-footer2{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    
+}
+.opinion-footer2 h4{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.opinion3{
+    width: 90px;
+    height: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.opinion-footer3{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+.opinion-footer3 h4{
+    margin-left: 15px;
+    margin-top: 90px;
+}
+.opinion4{
+    width: 90px;
+    height: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+   
+}
+.opinion-footer4{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 15px;
+}
+.opinion-footer4 h4{
+    margin-left: 30px;
+    
+}
+.opinion-footer4 img{
+    margin-top: 7.5px;
 }
